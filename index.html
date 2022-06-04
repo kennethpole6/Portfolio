@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@600" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Kenneth Pole</title>
+</head>
+<body>
+    <header data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in">
+        <div class="logo"><a href="index.html">{kp}</a></div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+    <div class="navBar">
+        <ul>
+            <li>
+               <a href="" class="active">Home</a>
+            </li>
+            <li>
+               <a href="#project" class="active">Projects</a>
+            </li>
+            <li>
+               <a href="about.html" class="active">About</a>
+            </li>
+            <li>
+               <button class="toggle" id="darkMode">
+                <span class="material-symbols-rounded">
+                    brightness_4
+                    </span>
+               </button>
+            </li>
+        </ul>
+    </div>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="left-hero">
+                <h1 data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">Hi, I'm Kenneth Pole</h1>
+                <h1 class="outlined" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">I <a href="">design</a> & <a href="">code</a>.</h1>
+                <p data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">I'm a UI/UX Designer based in Quezon City, Philippines creating and delivering end-to-end user interface and experience design for software products.</p>
+            </div>
+            <div class="right-hero">
+                <img src="./SVG/peep.svg" alt="" data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-sine">
+            </div>
+        </div>
+    </section>
+
+    <section class="recent" id="project">
+        <h1 data-aos="fade-in" data-aos-duration="500" data-aos-easing="ease-in-sine">Recent Projects</h1>
+        <div class="projects">
+            <div class="cards" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in">
+                <img src="SVG/image 2.svg" alt="Swab System">
+                <div class="desc">
+                    <h6>UI/UX Design</h6>
+                    <h2>Swab Testing System</h2>
+                    <p>Swab Testing System is a user-friendly that allows user to appoint and schedule swab testing via online so that the user will never be waiting in long queue.</p>
+                    <a href="swab.html" class="cta">Explore</a>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in">
+                <img src="SVG/image 1.svg" alt="Swab System">
+                <div class="desc">
+                    <h6>UI/UX Design / Front-End Development</h6>
+                    <h2>HRIS for Richworld Giftshop</h2>
+                    <p>HRIS for Richworld Giftshop is designed to help the business to store and organize employee information at ease. It comes also with job hiring if the company needs to recruit employee.</p>
+                    <a href="richworld.html" class="cta">Explore</a>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in">
+                <img src="SVG/RG.svg" alt="Swab System">
+                <div class="desc">
+                    <h6>UI/UX Design</h6>
+                    <h2>Richworld Giftshop App</h2>
+                    <p>Richworld Giftshop Mobile App is a job listing recruitment to hire employees specifically for the company to hire employees.</p>
+                    <a href="" class="cta">Explore</a>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in">
+                <img src="SVG/bdpc.svg" alt="Swab System">
+                <div class="desc">
+                    <h6>UI/UX Design / .NET Development</h6>
+                    <h2>Balintawak Diesel Parts Corp.</h2>
+                    <p>Payroll System for BDPC comes with automated calculating complicated local taxes for employee payroll to manage contractors and employees.</p>
+                    <a href="" class="cta">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h1 data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine">Let's Connect</h1>
+        <p>Let's talk about your ideas and bring it to the real-world</p>
+        <div class="links">
+            <a href="https://www.facebook.com/kennethpole6/"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://twitter.com/kennethpole10"><i class='bx bxl-twitter' ></i></a>
+            <a href="https://www.instagram.com/kennethpole6/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://github.com/kennethpole6"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.upwork.com/freelancers/~01a8da6cd8caafd176"><i class='bx bxl-upwork' ></i></a>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <script src="toggle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.refresh();
+      </script>
+</body>
+</html>
